@@ -1,0 +1,120 @@
+*{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inter', sans-serif;
+}
+#p1{
+    width: 100%;
+    height: 330px;
+    background-color: #303030;
+    
+    
+}
+
+#titulo{
+    padding-top: 160px;
+    padding-left: 90px;
+    color: white;
+    font-size: 30px;
+}
+
+#subtexto{
+    padding-top: 10px;
+    padding-left: 90px;
+    color: #FFFFFF;  
+}
+
+.menuinformativo{
+    height: 117px;
+    padding-top: 45px;
+    padding-left: 90px;
+    background-color: #F9F9F9;
+    align-items: normal;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+
+.container{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoetitulo{
+    align-items: center;
+    padding-left: 120px;
+}
+
+#tituloexplicativo{
+    padding-top: 200px;
+    font-size: 32px;
+}
+
+.subtextoexplicativo{
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.imagemlateral{
+    align-items: flex-start;
+    width: 450px;
+    height: 490px;
+    left: 976px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}   
+
+.barrafinal{
+    background-color: #303030;
+    height: 380px;
+}
+
+#titulofinal{
+    padding-top: 85px;
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+input{
+    width: 290px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 25px;
+    margin-left: 470px;
+}
+
+#nome{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 530px;
+    background-color: #c07212;
+    width: 190px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color:aliceblue;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e07b06;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #011d2b;
+    transition-duration: 0.5s;
+}
